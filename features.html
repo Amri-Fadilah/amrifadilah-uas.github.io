@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link icon -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/features.css">
+
+    <!-- == aos == -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- === icon === -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <title>Pantai lakey</title>
+  </head>
+  <body>
+    <!-- === Top Bar === -->
+    <section id="topbar" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center" data-aos="fade-up" data-aos-duration="1000">
+          <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
+          <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+        </div>
+        <div class="social-links d-none d-md-block">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- === Finish Topbar ===-->
+  
+    <!-- === Navbar === -->
+    <header class="p-3 bg-light text-black sticky-top">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="assets/img/logo.png" alt="" style="width: 50px; margin-right: 26px;">
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="features.html" class="nav-link px-2 text-secondary">Features</a></li>
+            <li><a href="galery.html" class="nav-link px-2 text-secondary">Galery</a></li>
+            <li><a href="contact.html" class="nav-link px-2 text-secondary">Contact</a></li>
+            <li><a href="about.html" class="nav-link px-2 text-secondary">About</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+  
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- === finish navbar === -->
+
+    
+
+<!-- === Jumbroton === -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid rounded" src="assets/img/carousel-1.jpg" alt="" width="100%" height="100%">
+      <div class="container">
+        <div class="carousel-caption text-start text-dark">
+          <h1>Nikmati suasana santai</h1>
+          <p>Some representative placeholder content for the first slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Open Galery</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img width="100%" height="100%" src="assets/img/carousel-2.jpg" alt="">
+      <div class="container">
+        <div class="carousel-caption text-dark">
+          <h1>Banyak keseruan yang terjadi</h1>
+          <p>Some representative placeholder content for the second slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img  src="assets/img/carousel-3.jpg" alt="" width="100%" height="100%">
+      <div class="container">
+        <div class="carousel-caption text-end text-dark">
+          <h1>Segera login dan dapatkan promo</h1>
+          <p>Some representative placeholder content for the third slide of this carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Sign-up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- === Finish Jumbroton === -->
+
+<!-- === Breadcrumb === -->
+    
+<nav aria-label="breadcrumb" style="margin-top: 20px; margin-bottom: 50px;">
+  <ol class="breadcrumb"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Features</li>
+  </ol>
+</nav>
+
+<!-- === Finish Breadcumb === -->
+
+
+<main>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+        <img src="assets/img/services/foto-4.jpg" class="img-fluid" alt="" width="300px">
+        <h2>Surving</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+        <img src="assets/img/services/foto-5.jpg " class="img-fluid" alt="" width="300px">
+        <h2>Cafe & Restorant</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+        <img src="assets/img/services/foto-6.jpg" class="img-fluid" alt="" width="300px">
+        <h2>Hotel & Penginapan</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <h2 class="featurette-heading">Pantai Lakey <span class="text-muted">#Surga bagi para peselancar</span></h2>
+        <p class="lead">Pantai Lakey merupakan pantai yang dikenal dengan sebutan surga bagi para peselancar. Pantai ini tidak hanya menawarkan suguhan keindahan alam, melainkan juga memanjakan pengunjungnya dengan berbagai tantangan. 
+        </p>
+        <p class="lead text-truncate">Pantai ini memiliki ombak tinggi dan teratur. Selain menjadi tempat wisata yang dibuka untuk wisatawan domestik dan mancanegara, Pantai Lakey juga kerap menjadi lokasi diadakannya lomba surfing bertaraf internasional. Hal ini dikarenakan Pantai Lakey memiliki empat jenis ombak yang memiliki karakteristik berbeda-beda dan sudah sangat dikenal di kalangan peselancar, yaitu lakey peak, cobblestone, lakey pipe, dan periscope.
+        </p> 
+        <span><a href="#" class="lead">Pelajari lebih lanjut...</a></span>
+      </div>
+      <div class="col-md-5"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <img src="assets/img/services/foto-1.png" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <h2 class="featurette-heading">Dineer khusus pasangan <span class="text-muted">Nikmati Waktu Romantismu</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <span><a href="#" class="lead">Pelajari lebih lanjut...</a></span>
+      </div>
+      <div class="col-md-5 order-md-1"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <img src="assets/img/services/foto-2.png" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Hotel & Penginapan <span class="text-muted">#Buat anda selalu nyaman</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <span><a href="#" class="lead">Pelajari lebih lanjut...</a></span>
+
+      </div>
+      <div class="col-md-5"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <img src="assets/img/services/foto-3.png" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->    
+  </div><!-- /.container -->
+</main>
+
+
+  <!-- === Pricing === -->
+  <div class="container py-3">
+  <header>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <h1 class="display-4 fw-normal">Promo Liburan </h1>
+      <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    </div>
+  </header>
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Days</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$50 - $70<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 s/d 5 orang</li>
+                <li>Penginapan</li>
+                <li>Free Wifi</li>
+                <li>Voucher Makan</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Sign-up Now  </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Week</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$100 - $150 <small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 s/d 5 orang</li>
+                <li>Penginapan</li>
+                <li>Free Wifi</li>
+                <li>Voucher Makan</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Sign-up Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+          <div class="card mb-4 rounded-3 shadow-sm ">
+            <div class="card-header py-3 text-dark">
+              <h4 class="my-0 fw-normal">Month</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$200 - $500<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 s/d 5 orang</li>
+                <li>Penginapan</li>
+                <li>Free Wifi</li>
+                <li>Voucher Makan</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Sign-up Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Segera Sign-up untuk mendapatkan promo</h1>
+            <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            </form>
+          </div>
+        </div>
+    </main>
+  </div>
+  <!-- === Finish Pricing === -->
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>Lakey</h3>
+              <p>
+                Jl. Pantai Lakey, Hu'u, Huu, Kec. Hu'u, Kabupaten Dompu. <br>
+                Nusa Tenggara Barat. 84216, Indonesia<br><br>
+                <strong>Phone:</strong> +62 823 4147 1770<br>
+                <strong>Email:</strong> lakeybeach@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>@amrifadilah180</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- == aos == -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+   
+</body>
+</html>
